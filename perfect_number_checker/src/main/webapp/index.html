@@ -1,0 +1,58 @@
+
+<!-- task 1 - perfect number guessing  -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center; 
+            align-items: center;    
+            height: 100vh;         
+            margin: 0px;             
+        }
+         #container {
+            background-color: yellow;
+            height: 300px;
+            width: 500px;
+            display: flex;
+            flex-direction: column; 
+            justify-content: space-evenly;
+            align-items: center;    
+            border-radius: 10px;   
+            border: solid 2px black;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+            
+            
+        }
+       
+        form {
+            margin-bottom: 20px;
+            text-align: center;
+            
+        }
+        .output {
+            font-weight: bold;
+            margin-top: 20px;
+            
+            
+        }
+    </style>
+</head>
+<body>
+	
+    <div id="container">
+        <h1>Perfect Number Checker</h1>
+        <label for="number" >ex.=> ( 1 + 2 + 3 = 6 )</label>
+        <form id="form" action="harsh" >
+            
+            <input type="number" id="number" name="number1"  placeholder="Enter a number" required>
+            <button type="submit" value="Check">Check</button>
+        </form>
+        <div id="output" class="output">Result: </div>
+    </div>  
+</body>
+</html>
